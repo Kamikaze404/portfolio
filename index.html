@@ -1,17 +1,342 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Daniel Kagramanov — Software, hardware & everything between</title><meta name="description" content="Daniel Kagramanov is a Computer Science and Engineering graduate building across web applications, embedded systems, and low-level software."><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23c4f04d'/%3E%3Ctext x='9' y='44' font-family='monospace' font-size='34' font-weight='bold'%3Edk%3C/text%3E%3C/svg%3E"><link rel="stylesheet" href="style.css"></head>
-<body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="#" aria-label="Daniel Kagramanov home">dk<span>✳</span></a><nav aria-label="Main navigation"><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a><a class="nav-resume" href="Daniel-Kagramanov-Resume.pdf" target="_blank" rel="noopener">Resume</a></nav></header>
-<main id="main"><section class="hero"><div class="eyebrow"><span>Daniel Kagramanov</span><span>Software + embedded engineering</span></div><h1>A little software.<br>A little hardware.<br><span class="highlight">A lot of curiosity.</span></h1><div class="hero-bottom"><p>I build across the stack—from the interfaces you click to the systems underneath. CS & Engineering graduate from UC Davis, based in Goleta, California.</p><a class="button" href="#work">Explore my work <span aria-hidden="true">✳</span></a></div><div class="hero-sticker" aria-hidden="true">WEB<br>MEETS<br>WORLD</div></section>
-<div class="ticker" aria-hidden="true"><span>CODE IT.</span><span>CONNECT IT.</span><span>MAKE IT WORK.</span><span>✳</span><span>CODE IT.</span><span>CONNECT IT.</span><span>MAKE IT WORK.</span></div>
-<section id="work" class="work section"><div class="section-head"><div><p class="eyebrow">01 / Selected projects</p><h2>Different layers.<br>Same curiosity.</h2></div><p>From clinical workflows to tiny devices.<br>Pick a project to look under the hood.</p></div>
-<div class="filters" role="group" aria-label="Filter projects"><button class="active" data-filter="all" aria-pressed="true">All work <span>04</span></button><button data-filter="software" aria-pressed="false">Software</button><button data-filter="embedded" aria-pressed="false">Embedded</button><button data-filter="systems" aria-pressed="false">Systems</button></div>
-<div class="projects">
-<article class="project lime" data-category="software"><div class="card-top"><span>01 / Software</span><span>Senior capstone</span></div><div class="project-art pipeline" aria-label="Planning pipeline: MRI, segmentation, trajectory"><span>MRI</span><i></i><span>SEGMENT</span><i></i><span>PLAN</span></div><div class="card-body"><p class="project-kicker">Sponsored by UC Davis Health</p><h3>Making surgical<br>planning simpler.</h3><p>A platform that automates stereo-EEG surgical planning, reducing clinician preparation time by 4×.</p><div class="tags"><span>Next.js</span><span>FastAPI</span><span>Python</span><span>Medical imaging</span></div><details><summary>Inside the project <span aria-hidden="true">+</span></summary><div class="detail"><p>I developed file-conversion, input-validation, and pipeline-execution algorithms, built a Next.js interface around clinician needs, and integrated imaging software for MRI segmentation, vessel analysis, and trajectory generation.</p></div></details></div></article>
-<article class="project lilac" data-category="embedded"><div class="card-top"><span>02 / Embedded</span><span>Hardware + cloud</span></div><div class="project-art timer"><span class="timer-label">PRECISION MEETS PLAY</span><strong>00:12.48</strong><span class="timer-label">TOUCH · TIME · CONNECT</span></div><div class="card-body"><p class="project-kicker">TI CC3200 / Connected device</p><h3>A speedcube timer.<br>Built from the pins up.</h3><p>A real-time timer bringing touch input, an OLED display, and cloud connectivity onto one embedded platform.</p><div class="tags"><span>C</span><span>CC3200</span><span>AWS IoT</span><span>SPI / I2C</span></div><details><summary>Inside the project <span aria-hidden="true">+</span></summary><div class="detail"><p>I integrated touch sensors, OLED rendering, and a rotary encoder on the TI CC3200, combining I2C, SPI, GPIO, Wi-Fi, and AWS IoT for connected and standalone operation.</p><p class="small">The timer above is an illustrative visual, not a live device feed.</p></div></details></div></article>
-<article class="project peach" data-category="systems"><div class="card-top"><span>03 / Networking</span><span>Packets to protocols</span></div><div class="project-art code-art" aria-hidden="true"><span>query → resolve</span><span>connect → relay</span><span class="code-bottom">SOCKETS. NO SHORTCUTS.</span></div><div class="card-body"><p class="project-kicker">Low-level networking / Python</p><h3>Under the hood<br>of the internet.</h3><p>A DNS client and TCP proxy built with packet parsing and low-level socket programming.</p><div class="tags"><span>Python</span><span>DNS</span><span>TCP</span><span>Sockets</span></div><details><summary>Inside the project <span aria-hidden="true">+</span></summary><div class="detail"><p>I constructed and interpreted DNS packets from scratch to implement parsing and resolution, then integrated a TCP proxy using low-level sockets.</p></div></details></div></article>
-<article class="project blue" data-category="systems"><div class="card-top"><span>04 / Systems</span><span>Built in C</span></div><div class="project-art blocks" aria-label="File allocation chain"><span>00</span><b>→</b><span>01</span><b>→</b><span>02</span><b>→</b><span>EOF</span></div><div class="card-body"><p class="project-kicker">Operating systems / Storage</p><h3>A place for<br>every byte.</h3><p>A FAT-based file system with persistent block allocation and the fundamentals of file management.</p><div class="tags"><span>C</span><span>FAT</span><span>Storage allocation</span></div><details><summary>Inside the project <span aria-hidden="true">+</span></summary><div class="detail"><p>I implemented file creation, deletion, reading, and writing, plus directory management, FAT traversal, and persistent storage allocation.</p></div></details></div></article>
-</div><p class="github-note">More code, experiments, and works in progress on <a href="https://github.com/Kamikaze404" target="_blank" rel="noopener">GitHub</a>.</p></section>
-<section id="about" class="about section"><div class="about-intro"><p class="eyebrow">02 / A bit about me</p><h2>Comfortable<br>between worlds.</h2><p>I’m Daniel, a Computer Science and Engineering graduate who enjoys working where software meets the physical world. My work spans responsive websites, medical-imaging workflows, embedded firmware, and core systems.</p><p>I like understanding how the pieces fit together—and turning that understanding into something useful.</p><a class="text-link" href="Daniel-Kagramanov-Resume.pdf" download>Download my resume</a></div><div class="experience"><h3>The journey so far</h3><article><span class="date">Jun — Aug 2026 · Barcelona, Spain</span><h4>CE Intern</h4><p class="company">Draco Systems</p><p>Built and validated a wearable prototype integrating BLE, IMU sensing, and power. Encoded turn and angulation metrics in a single BLE advertisement and proposed PCB components to reduce the BOM by €1,000 per 100 units.</p></article><article><span class="date">Jan — Jun 2026 · UC Davis</span><h4>Software Developer</h4><p class="company">#include Davis</p><p>Developed the UC Davis Linguistics Club website, translating Figma designs into responsive Next.js and React interfaces for events, resources, and club information.</p></article><article><span class="date">Awarded June 2026</span><h4>B.S. Computer Science & Engineering</h4><p class="company">University of California, Davis</p></article></div></section>
-<section class="toolkit section"><p class="eyebrow">Things I build with</p><div class="skills"><span>C / C++</span><span>Python</span><span>TypeScript</span><span>JavaScript</span><span>React</span><span>Next.js</span><span>FastAPI</span><span>Node.js</span><span>HTML / CSS</span><span>Tailwind</span><span>Git</span><span>Linux / Unix</span></div></section>
-<section id="contact" class="contact section"><p class="eyebrow">03 / Say hello</p><h2>Have something<br>interesting in mind<span>?</span></h2><p>A role, a collaboration, or a question about a project—let’s talk.</p><a class="email" href="mailto:kagramanovdaniel@gmail.com">kagramanovdaniel@gmail.com</a><div class="socials"><a href="https://github.com/Kamikaze404" target="_blank" rel="noopener">GitHub</a><a href="https://linkedin.com/in/daniel-kagramanov-382912264" target="_blank" rel="noopener">LinkedIn</a><a href="Daniel-Kagramanov-Resume.pdf" target="_blank" rel="noopener">Resume</a></div></section>
-</main><footer><a class="brand" href="#">dk<span>✳</span></a><p>Daniel Kagramanov · Goleta, California</p><a href="#">Back to top</a></footer><script src="script.js"></script></body></html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daniel Kagramanov — Software, hardware & everything between</title>
+    <meta
+      name="description"
+      content="Daniel Kagramanov is a Computer Science and Engineering graduate building across web applications, embedded systems, and low-level software."
+    >
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23c4f04d'/%3E%3Ctext x='9' y='44' font-family='monospace' font-size='34' font-weight='bold'%3Edk%3C/text%3E%3C/svg%3E"
+    >
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header>
+      <a class="brand" href="#" aria-label="Daniel Kagramanov home">dk<span>✳</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-resume" href="Daniel-Kagramanov-Resume.pdf" target="_blank" rel="noopener">Resume</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="eyebrow">
+          <span>Daniel Kagramanov</span>
+          <span>Software + embedded engineering</span>
+        </div>
+
+        <h1>
+          A little software.<br>
+          A little hardware.<br>
+          <span class="highlight">A lot of curiosity.</span>
+        </h1>
+
+        <div class="hero-bottom">
+          <p>
+            I build across the stack: from the interfaces you click, to the systems underneath.
+            CS & Engineering graduate from UC Davis, based in Goleta, California.
+          </p>
+          <a class="button button--animated" href="#work">Explore my work <span aria-hidden="true">✳</span></a>
+        </div>
+
+        <div class="hero-sticker" aria-hidden="true">
+          WEB<br>
+          MEETS<br>
+          WORLD
+        </div>
+      </section>
+
+      <div class="ticker-wrapper">
+        <div class="ticker-track">
+          <div class="ticker" aria-hidden="true">
+            <span>✳</span>
+            <span>CODE IT.</span>
+            <span>CONNECT IT.</span>
+            <span>MAKE IT WORK.</span>
+            <span>✳</span>
+          </div>
+          <div class="ticker" aria-hidden="true">
+            <span>✳</span>
+            <span>CODE IT.</span>
+            <span>CONNECT IT.</span>
+            <span>MAKE IT WORK.</span>
+            <span>✳</span>
+          </div>
+          <div class="ticker" aria-hidden="true">
+            <span>✳</span>
+            <span>CODE IT.</span>
+            <span>CONNECT IT.</span>
+            <span>MAKE IT WORK.</span>
+            <span>✳</span>
+          </div>
+          <div class="ticker" aria-hidden="true">
+            <span>✳</span>
+            <span>CODE IT.</span>
+            <span>CONNECT IT.</span>
+            <span>MAKE IT WORK.</span>
+            <span>✳</span>
+          </div>
+        </div>
+      </div>
+
+      <section id="work" class="work section">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">01 / Selected projects</p>
+            <h2>Different layers.<br>Same curiosity.</h2>
+          </div>
+          <p>
+            From clinical workflows to tiny devices.<br>
+            Pick a project to look under the hood.
+          </p>
+        </div>
+
+        <div class="filters" role="group" aria-label="Filter projects">
+          <button class="active" data-filter="all" aria-pressed="true">
+            All work <span>04</span>
+          </button>
+          <button data-filter="software" aria-pressed="false">Software</button>
+          <button data-filter="embedded" aria-pressed="false">Embedded</button>
+          <button data-filter="systems" aria-pressed="false">Systems</button>
+        </div>
+
+        <div class="projects">
+          <article class="project lime" data-category="software">
+            <div class="card-top">
+              <span>01 / Software</span>
+              <span>Senior capstone</span>
+            </div>
+            <div class="project-art pipeline" aria-label="Planning pipeline: MRI, segmentation, trajectory">
+              <span>MRI</span>
+              <i></i>
+              <span>SEGMENT</span>
+              <i></i>
+              <span>PLAN</span>
+            </div>
+            <div class="card-body">
+              <p class="project-kicker">Sponsored by UC Davis Health</p>
+              <h3>Making surgical<br>planning simpler.</h3>
+              <p>
+                A platform that automates stereo-EEG surgical planning, reducing clinician preparation time by 4×.
+              </p>
+              <div class="tags">
+                <span>Next.js</span>
+                <span>FastAPI</span>
+                <span>Python</span>
+                <span>Medical imaging</span>
+              </div>
+              <details>
+                <summary>Inside the project <span aria-hidden="true">+</span></summary>
+                <div class="detail">
+                  <p>
+                    I developed file-conversion, input-validation, and pipeline-execution algorithms,
+                    built a Next.js interface around clinician needs, and integrated imaging software for MRI
+                    segmentation, vessel analysis, and trajectory generation.
+                  </p>
+                </div>
+              </details>
+            </div>
+          </article>
+
+          <article class="project lilac" data-category="embedded">
+            <div class="card-top">
+              <span>02 / Embedded</span>
+              <span>Hardware + cloud</span>
+            </div>
+            <div class="project-art timer">
+              <span class="timer-label">PRECISION MEETS PLAY</span>
+              <strong>00:12.48</strong>
+              <span class="timer-label">TOUCH · TIME · CONNECT</span>
+            </div>
+            <div class="card-body">
+              <p class="project-kicker">TI CC3200 / Connected device</p>
+              <h3>A speedcube timer.<br>Built from the pins up.</h3>
+              <p>
+                A real-time timer bringing touch input, an OLED display, and cloud connectivity onto one embedded platform.
+              </p>
+              <div class="tags">
+                <span>C</span>
+                <span>CC3200</span>
+                <span>AWS IoT</span>
+                <span>SPI / I2C</span>
+              </div>
+              <details>
+                <summary>Inside the project <span aria-hidden="true">+</span></summary>
+                <div class="detail">
+                  <p>
+                    I integrated touch sensors, OLED rendering, and a rotary encoder on the TI CC3200,
+                    combining I2C, SPI, GPIO, Wi-Fi, and AWS IoT for connected and standalone operation.
+                  </p>
+                  <p class="small">The timer above is an illustrative visual, not a live device feed.</p>
+                </div>
+              </details>
+            </div>
+          </article>
+
+          <article class="project peach" data-category="systems">
+            <div class="card-top">
+              <span>03 / Networking</span>
+              <span>Packets to protocols</span>
+            </div>
+            <div class="project-art code-art" aria-hidden="true">
+              <span>query → resolve</span>
+              <span>connect → relay</span>
+              <span class="code-bottom">SOCKETS. NO SHORTCUTS.</span>
+            </div>
+            <div class="card-body">
+              <p class="project-kicker">Low-level networking / Python</p>
+              <h3>Under the hood<br>of the internet.</h3>
+              <p>A DNS client and TCP proxy built with packet parsing and low-level socket programming.</p>
+              <div class="tags">
+                <span>Python</span>
+                <span>DNS</span>
+                <span>TCP</span>
+                <span>Sockets</span>
+              </div>
+              <details>
+                <summary>Inside the project <span aria-hidden="true">+</span></summary>
+                <div class="detail">
+                  <p>
+                    I constructed and interpreted DNS packets from scratch to implement parsing and resolution,
+                    then integrated a TCP proxy using low-level sockets.
+                  </p>
+                </div>
+              </details>
+            </div>
+          </article>
+
+          <article class="project blue" data-category="systems">
+            <div class="card-top">
+              <span>04 / Systems</span>
+              <span>Built in C</span>
+            </div>
+            <div class="project-art blocks" aria-label="File allocation chain">
+              <span>00</span>
+              <b>→</b>
+              <span>01</span>
+              <b>→</b>
+              <span>02</span>
+              <b>→</b>
+              <span>EOF</span>
+            </div>
+            <div class="card-body">
+              <p class="project-kicker">Operating systems / Storage</p>
+              <h3>A place for<br>every byte.</h3>
+              <p>A FAT-based file system with persistent block allocation and the fundamentals of file management.</p>
+              <div class="tags">
+                <span>C</span>
+                <span>FAT</span>
+                <span>Storage allocation</span>
+              </div>
+              <details>
+                <summary>Inside the project <span aria-hidden="true">+</span></summary>
+                <div class="detail">
+                  <p>
+                    I implemented file creation, deletion, reading, and writing, plus directory management,
+                    FAT traversal, and persistent storage allocation.
+                  </p>
+                </div>
+              </details>
+            </div>
+          </article>
+        </div>
+
+        <p class="github-note">
+          More code, experiments, and works in progress on
+          <a href="https://github.com/Kamikaze404" target="_blank" rel="noopener">GitHub</a>.
+        </p>
+      </section>
+
+      <section id="about" class="about section">
+        <div class="about-intro">
+          <p class="eyebrow">02 / A bit about me</p>
+          <h2>Comfortable<br>between worlds.</h2>
+          <p>
+            I’m Daniel, a Computer Science and Engineering graduate who enjoys working where software meets the physical world.
+            My work spans responsive websites, medical-imaging workflows, embedded firmware, and core systems.
+          </p>
+          <p>I like understanding how the pieces fit together—and turning that understanding into something useful.</p>
+          <a class="text-link" href="Daniel-Kagramanov-Resume.pdf" download>Download my resume</a>
+        </div>
+
+        <div class="experience">
+          <h3>The journey so far</h3>
+
+          <article>
+            <span class="date">Jun — Aug 2026 · Barcelona, Spain</span>
+            <h4>CE Intern</h4>
+            <p class="company">Draco Systems</p>
+            <p>
+              Built and validated a wearable prototype integrating BLE, IMU sensing, and power. Encoded turn and angulation metrics in a single BLE advertisement and proposed PCB components to reduce the BOM by €1,000 per 100 units.
+            </p>
+          </article>
+
+          <article>
+            <span class="date">Jan — Jun 2026 · UC Davis</span>
+            <h4>Software Developer</h4>
+            <p class="company">#include Davis</p>
+            <p>
+              Developed the UC Davis Linguistics Club website, translating Figma designs into responsive Next.js and React interfaces for events, resources, and club information.
+            </p>
+          </article>
+
+          <article>
+            <span class="date">Awarded June 2026</span>
+            <h4>B.S. Computer Science & Engineering</h4>
+            <p class="company">University of California, Davis</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="toolkit section">
+        <p class="eyebrow">Things I build with</p>
+        <div class="skills">
+          <span>C / C++</span>
+          <span>Python</span>
+          <span>TypeScript</span>
+          <span>JavaScript</span>
+          <span>React</span>
+          <span>Next.js</span>
+          <span>FastAPI</span>
+          <span>Node.js</span>
+          <span>HTML / CSS</span>
+          <span>Tailwind</span>
+          <span>Git</span>
+          <span>Linux / Unix</span>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <p class="eyebrow">03 / Say hello</p>
+        <h2>Have something<br>interesting in mind<span>?</span></h2>
+        <p>A role, a collaboration, or a question about a project—let’s talk.</p>
+        <a class="email" href="mailto:kagramanovdaniel@gmail.com">kagramanovdaniel@gmail.com</a>
+        <div class="socials">
+          <a href="https://github.com/Kamikaze404" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com/in/daniel-kagramanov-382912264" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="Daniel-Kagramanov-Resume.pdf" target="_blank" rel="noopener">Resume</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand" href="#">dk<span>✳</span></a>
+      <p>Daniel Kagramanov · Goleta, California</p>
+      <a href="#">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
