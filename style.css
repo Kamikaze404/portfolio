@@ -48,18 +48,6 @@ summary:focus-visible {
   outline-offset: 5px;
 }
 
-.skip {
-  position: absolute;
-  top: -80px;
-  background: white;
-  padding: 10px;
-  z-index: 10;
-}
-
-.skip:focus {
-  top: 5px;
-}
-
 header,
 footer {
   max-width: 1440px;
@@ -162,7 +150,6 @@ nav a:not(:last-child):hover {
 .hero > .eyebrow {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
 }
 
 h1,
@@ -582,6 +569,7 @@ details[open] summary span {
 
 .about {
   border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12%;
