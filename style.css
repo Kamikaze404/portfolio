@@ -107,6 +107,10 @@ nav a:not(:last-child):hover {
     color: darkred;
 }
 
+.icon-header {
+  font-size: 24px;
+}
+
 .nav-resume {
   border: 1.5px solid var(--ink);
   color: black;
@@ -698,14 +702,19 @@ details[open] summary span {
   font-size: 14px;
 }
 
+.icon-footer {
+  display: flex;
+  justify-items: right;
+}
+
 footer p,
 footer > a:last-child {
-  font-size: 12px;
+  font-size: 16px;
   color: #66665e;
 }
 
 footer {
-  gap: 20px;
+  gap: 15px;
 }
 
 ::selection {
