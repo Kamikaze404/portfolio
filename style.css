@@ -695,15 +695,24 @@ details[open] summary span {
   justify-items: right;
 }
 
+footer {
+  gap: 15px;
+}
+
 footer p,
 footer > a:last-child {
   font-size: 16px;
   color: #66665e;
 }
 
-footer {
-  gap: 15px;
+footer a{
+  transition: color 0.25s ease;
 }
+
+footer a:hover{
+  color: darkred;
+}
+
 
 ::selection {
   background: #c5b2ef;
